@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Side-1" id="85p5R-w3GVmB06p__iaf">
+    <mxGraphModel dx="1368" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9aqTWdN0DO0WqZTiZIe-1" target="I9aqTWdN0DO0WqZTiZIe-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-4" value="Define array of letters" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I9aqTWdN0DO0WqZTiZIe-2">
+          <mxGeometry x="-0.2873" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9aqTWdN0DO0WqZTiZIe-1" target="I9aqTWdN0DO0WqZTiZIe-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-16" value="Define array of numbers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I9aqTWdN0DO0WqZTiZIe-14">
+          <mxGeometry x="0.0476" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9aqTWdN0DO0WqZTiZIe-3" target="I9aqTWdN0DO0WqZTiZIe-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="226" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-7" value="find number of elements in array" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I9aqTWdN0DO0WqZTiZIe-5">
+          <mxGeometry x="-0.3061" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-3" value="char letter_arr[] = {...}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="166" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-8" value="Print original letters" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9aqTWdN0DO0WqZTiZIe-6" target="I9aqTWdN0DO0WqZTiZIe-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="226" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-6" value="int len_letters = sifeof(letter_arr) / sizeof(letter_arr[0]);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="292" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-10" value="sort letters" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9aqTWdN0DO0WqZTiZIe-9" target="I9aqTWdN0DO0WqZTiZIe-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="226" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-9" value="printf(&quot;Original letters: &quot;);&lt;br&gt;for (int i = 0; i &amp;lt; len_letters, ++i) printf(&quot;%c &quot;, letter_arr[i];&lt;br&gt;printf(&quot;\n&quot;);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="390" width="332" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-12" value="print sorted letters" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9aqTWdN0DO0WqZTiZIe-11" target="I9aqTWdN0DO0WqZTiZIe-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="226" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-11" value="bubble_sort(letter_arr, len_letters, letters_in_order);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="500" width="312" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I9aqTWdN0DO0WqZTiZIe-13" target="I9aqTWdN0DO0WqZTiZIe-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-13" value="printf(&quot;Sorted letters: &quot;)&lt;br&gt;for(int i = 0; &amp;lt; len_letters; ++i) printf(&quot;%c &quot;, letter_arr[i]);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="610" width="312" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-17" value="find number of elements in array" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9aqTWdN0DO0WqZTiZIe-15" target="I9aqTWdN0DO0WqZTiZIe-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="636" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-15" value="char number_arr[...]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="563" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-19" value="print original numbers" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9aqTWdN0DO0WqZTiZIe-18" target="I9aqTWdN0DO0WqZTiZIe-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="623" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="623" y="360" />
+              <mxPoint x="623" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-18" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;int len_numbers = sifeof(number_arr) / sizeof(number_arr[0]);&lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="443" y="270" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9aqTWdN0DO0WqZTiZIe-20" target="I9aqTWdN0DO0WqZTiZIe-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="623" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-26" value="sort numbers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I9aqTWdN0DO0WqZTiZIe-21">
+          <mxGeometry x="-0.2618" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-20" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;printf(&quot;Original numbers: &quot;);&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;for (int i = 0; i &amp;lt; len_numbers, ++i) printf(&quot;%c &quot;, number_arr[i];&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;printf(&quot;\n&quot;);&lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="390" width="366" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9aqTWdN0DO0WqZTiZIe-22" target="I9aqTWdN0DO0WqZTiZIe-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="623" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-25" value="print sorted numbers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I9aqTWdN0DO0WqZTiZIe-23">
+          <mxGeometry x="-0.3018" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-22" value="bubble_sort(number_arr, len_numbers, numbers_in_ascending_ordor);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="500" width="386" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I9aqTWdN0DO0WqZTiZIe-24" target="I9aqTWdN0DO0WqZTiZIe-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-24" value="printf(&quot;Sorted numbers: &quot;;&lt;br&gt;for (int i = 0; i &amp;lt; len_numbers; ++i) printf(&quot;%d &quot;, (int)number_arr[i]);&lt;br&gt;printf(&quot;\n&quot;);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="426" y="610" width="394" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I9aqTWdN0DO0WqZTiZIe-27" value="end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
