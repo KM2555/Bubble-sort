@@ -1,0 +1,5 @@
+-std=gnu11
+-g
+-Wall
+-Wextra
+-I Include
